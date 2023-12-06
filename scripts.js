@@ -17,9 +17,6 @@ if(email !== '' & password !== '') {
     let span = document.querySelector('.message');
     span.classList.add('message-green');
     span.innerHTML = 'Form has been successfully submitted'
-    console.log(span);
-    console.log(typeof email);
-    console.log(typeof password);
 
     const data = {};
     data.email = email;
